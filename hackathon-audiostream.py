@@ -2,9 +2,12 @@ import speech_recognition as sr
 import datetime
 
 
-def transcribe_speech(duration):
+
+def transcribe_speech(duration, listening_time):
     # Initialize the recognizer
     r = sr.Recognizer()
+    transcriptions = []
+
 
     # Use the default system microphone as the audio source
     with sr.Microphone() as source:
@@ -18,12 +21,15 @@ def transcribe_speech(duration):
 
         # Loop until the desired duration is reached
         while (datetime.datetime.now() - start_time).seconds < duration:
-            audio = r.listen(source)  # Listen for audio input
+            audio = r.listen(source, phrase_time_limit=listening_time)  # Listen for audio input
+
 
             try:
                 # Transcribe the speech input
                 text = r.recognize_google(audio)
-                print("Transcription:", text)
+                transcriptions.append(text)
+                print(text)
+                #print("Transcription:", text)
 
             except sr.UnknownValueError:
                 print("Unable to recognize speech")
@@ -31,5 +37,10 @@ def transcribe_speech(duration):
             except sr.RequestError as e:
                 print("Error occurred: {0}".format(e))
 
+
 # Call the function to start real-time transcription for 10 minutes
-transcribe_speech(duration=120)
+
+transcribe_speech(duration=180,listening_time = 30)
+
+
+
