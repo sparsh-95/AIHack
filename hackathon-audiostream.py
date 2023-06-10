@@ -32,7 +32,7 @@ def transcribe_speech(duration, listening_time):
                 #print("Transcription:", text)
 
             except sr.UnknownValueError:
-                print("Unable to recognize speech")
+                pass
 
             except sr.RequestError as e:
                 print("Error occurred: {0}".format(e))
