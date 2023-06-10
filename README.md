@@ -1,0 +1,2 @@
+# AIHack
+AI Hackathon MVP
