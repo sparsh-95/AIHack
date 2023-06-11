@@ -1,3 +1,4 @@
+!pip install speech_recognition
 import speech_recognition as sr
 import datetime
 from langchain.chains import LLMChain
