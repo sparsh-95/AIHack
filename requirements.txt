@@ -108,7 +108,6 @@ redis==4.5.5
 regex==2023.6.3
 rich==13.4.1
 scikit-image==0.18.3
-scikit-learn-intelex==2021.20210714.100439
 semver==3.0.0
 simplegeneric==0.8.1
 sip==4.19.13
