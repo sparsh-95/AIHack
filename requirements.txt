@@ -11,6 +11,7 @@ atomicwrites==1.4.0
 audio-processing==0.0.1
 audio-recorder-streamlit==0.0.8
 backports.weakref==1.0.post1
+PyAudio
 base58==2.1.1
 bitstring==4.0.2
 bkcharts==0.2
