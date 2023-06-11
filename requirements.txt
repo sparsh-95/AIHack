@@ -88,7 +88,6 @@ pyarrow==12.0.0
 pyasn1-modules==0.2.8
 PyAudio==0.2.13
 pycosat==0.6.3
-pycurl==7.44.1
 pydantic==1.10.2
 pydeck==0.8.1b0
 PyDispatcher==2.0.5
