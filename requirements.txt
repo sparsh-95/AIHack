@@ -27,7 +27,6 @@ cytoolz==0.11.0
 daal4py==2021.3.0
 dask==2021.10.0
 dataclasses-json==0.5.7
-datashape==0.5.4
 dnspython==2.3.0
 entrypoints==0.3
 et-xmlfile==1.1.0
