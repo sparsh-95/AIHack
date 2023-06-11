@@ -104,7 +104,7 @@ smmap==5.0.0
 SpeechRecognition==3.10.0
 Sphinx==4.2.0
 SQLAlchemy==2.0.15
-streamlit==1.0.0
+streamlit
 streamlit-bokeh-events==0.1.2
 tabulate==0.8.9
 tenacity==8.2.2
