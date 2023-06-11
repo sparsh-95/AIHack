@@ -9,10 +9,10 @@ import streamlit as st
 import pinecone
 import redis
 
-embeddings = OpenAIEmbeddings(openai_api_key="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")
+embeddings = OpenAIEmbeddings(openai_api_key="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")
 
 pinecone.init(
-    api_key="a213d2a6-cd69-42c6-a0fb-298c77ccf75c",  # find at app.pinecone.io
+    api_key="a5365c19-5a86-47e0-ab15-d5041b62d76d",  # find at app.pinecone.io
     environment='us-east4-gcp'  # next to api key in console
 )
 
@@ -26,7 +26,7 @@ st.title('Client Conversation')
 
 @st.cache(show_spinner=False)
 def main(prompt):
-    llm = OpenAI(temperature=0, openai_api_key="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")
+    llm = OpenAI(temperature=0, openai_api_key="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")
 
     r = redis.Redis(host='localhost', port=6379, db=0)
 
