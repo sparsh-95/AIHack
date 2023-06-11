@@ -14,12 +14,10 @@ backports.weakref==1.0.post1
 base58==2.1.1
 bitstring==4.0.2
 bkcharts==0.2
-black==19.10b0
 blinker==1.5
 boto==2.49.0
 brotlipy==0.7.0
 cachetools==5.3.1
-click==7.1.2
 constantly==15.1.0
 cssselect==1.1.0
 cycler==0.10.0
@@ -63,7 +61,6 @@ mpmath==1.2.1
 multidict==6.0.4
 munkres==1.1.4
 mypy-extensions==0.4.3
-nltk==3.6.5
 numexpr==2.8.4
 numpy==1.24.3
 openai==0.27.8
@@ -96,7 +93,6 @@ python-lsp-jsonrpc==1.0.0
 python-lsp-server==1.2.4
 pytz==2021.3
 PyYAML==6.0
-quart==0.18.4
 queuelib==1.5.0
 redis==4.5.5
 regex==2023.6.3
