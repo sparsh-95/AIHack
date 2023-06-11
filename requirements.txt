@@ -117,7 +117,6 @@ SQLAlchemy==2.0.15
 streamlit==1.0.0
 streamlit-bokeh-events==0.1.2
 tabulate==0.8.9
-TBB==0.2
 tenacity==8.2.2
 terminado==0.9.4
 tiktoken==0.4.0
