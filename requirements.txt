@@ -110,7 +110,6 @@ rich==13.4.1
 scikit-image==0.18.3
 semver==3.0.0
 simplegeneric==0.8.1
-sip==4.19.13
 smmap==5.0.0
 SpeechRecognition==3.10.0
 Sphinx==4.2.0
