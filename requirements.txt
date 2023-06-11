@@ -4,7 +4,6 @@ aiosignal==1.3.1
 aiounittest==1.4.2
 altair==4.0.0
 anaconda-navigator==2.1.1
-anaconda-project @ file:///tmp/build/80754af9/anaconda-project_1626085644852/work
 anyio @ file:///opt/concourse/worker/volumes/live/96440bbe-d2f1-4a9e-5edf-600248ff38bd/volume/anyio_1617783321037/work/dist
 appdirs==1.4.4
 applaunchservices @ file:///Users/ktietz/demo/mc3/conda-bld/applaunchservices_1630511705208/work
