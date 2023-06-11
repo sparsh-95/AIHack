@@ -68,7 +68,6 @@ mpmath==1.2.1
 multidict==6.0.4
 munkres==1.1.4
 mypy-extensions==0.4.3
-navigator-updater==0.2.1
 nltk==3.6.5
 numexpr==2.8.4
 numpy==1.24.3
